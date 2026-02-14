@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A63C9F94FF66ECEE0073925 /* CelebrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA01E693E015F48A6C87A0 /* CelebrationView.swift */; };
+		0D835D376B2F621CF807BC88 /* HistoryEntryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F25A027E3DFFC67BA139C27 /* HistoryEntryRow.swift */; };
+		1DFB2E328CF3EC4B3C3A905B /* QuickLogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF6B1950785799C25A18AF5 /* QuickLogButton.swift */; };
+		3DC2521E6AA3D07B99D18CE8 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8122CDCB18F264D951F6DFAE /* StatsView.swift */; };
+		47CCB5BE2C89B7A01357DADA /* CustomAmountSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED1112FB78D5E39B02E46AE /* CustomAmountSheet.swift */; };
+		4A0E41BA73F169AAC530F90C /* WaterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D184DA7BDF2DBB7E7CB64E3 /* WaterViewModel.swift */; };
+		542A235CA2CF1E14D420348A /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AD4AE325C1DD25778A170C /* RemindersView.swift */; };
+		60A881748066A4F791D36210 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5AD8FD0A04E73FE77C2A1F /* SettingsView.swift */; };
+		65909B83E286BD18D373C199 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3174F6B8C610DECFD2F42D37 /* HomeView.swift */; };
+		6B893A5C25344FD3AA4E083A /* FunFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA7C0D34314F29E3EE2834A /* FunFactView.swift */; };
+		7426C8D6E7BC6862EAF7F958 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D5C6125419F617FDEBD0 /* HapticManager.swift */; };
+		9A3291E1748BF9EA7E5714C7 /* WaterEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE02075CB797A301486D311 /* WaterEntry.swift */; };
+		BD29857C05EA222EC0AD3586 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26BC0FEE081C4383071401E /* Constants.swift */; };
+		C1306EEA5478EC8228E2707A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E313A01313525A3E51B4215 /* ContentView.swift */; };
+		C4B1DE8F2484056267C19BF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEFB2574F89A42775294094 /* Assets.xcassets */; };
+		C7BE67E2A467EE76F9B8D6C6 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB35FA37363AFF8DF98DF6A /* UserProfile.swift */; };
+		DA267148D234D22944AA430A /* WaterVesselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85F14D73E4927F5C7800577 /* WaterVesselView.swift */; };
+		DC08B6DFBB740507F8CF50AF /* HydroTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4035ECF73611FC67B7A70A12 /* HydroTrackApp.swift */; };
+		E92517F1B46EC7C6EBD8D764 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C4CBE3BE9BA1A7C6799C1 /* HealthKitManager.swift */; };
+		EA92AFFA59356FC219715714 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595BB0513FAE652B2402B54F /* OnboardingView.swift */; };
+		EED28DE1C4B28BFDB09FA98A /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A518185D45F095E6E0A676 /* SettingsViewModel.swift */; };
+		F13D0776F690FC0AC55DC869 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB4716ED0EB32439C269AE9 /* EmptyStateView.swift */; };
+		F4B0C80EFADD20E3BCA7C721 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9F1D31A356016B4B372F4 /* Theme.swift */; };
+		FD582B59DAA868FC0DBF238B /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED478B1FB9F228CEB8D1A3A /* NotificationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0ED1112FB78D5E39B02E46AE /* CustomAmountSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAmountSheet.swift; sourceTree = "<group>"; };
+		0ED478B1FB9F228CEB8D1A3A /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		0EE02075CB797A301486D311 /* WaterEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterEntry.swift; sourceTree = "<group>"; };
+		1E313A01313525A3E51B4215 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27AD4AE325C1DD25778A170C /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
+		3174F6B8C610DECFD2F42D37 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3AB35FA37363AFF8DF98DF6A /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		4035ECF73611FC67B7A70A12 /* HydroTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroTrackApp.swift; sourceTree = "<group>"; };
+		48A518185D45F095E6E0A676 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		49A1D5C6125419F617FDEBD0 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		4D184DA7BDF2DBB7E7CB64E3 /* WaterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterViewModel.swift; sourceTree = "<group>"; };
+		4EA7C0D34314F29E3EE2834A /* FunFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactView.swift; sourceTree = "<group>"; };
+		595BB0513FAE652B2402B54F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		6F25A027E3DFFC67BA139C27 /* HistoryEntryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryEntryRow.swift; sourceTree = "<group>"; };
+		75FA01E693E015F48A6C87A0 /* CelebrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebrationView.swift; sourceTree = "<group>"; };
+		7A5AD8FD0A04E73FE77C2A1F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7CC47E09AD213A53A3CB79DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8122CDCB18F264D951F6DFAE /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		9CB4716ED0EB32439C269AE9 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		AD0C4CBE3BE9BA1A7C6799C1 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		C85F14D73E4927F5C7800577 /* WaterVesselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterVesselView.swift; sourceTree = "<group>"; };
+		D26BC0FEE081C4383071401E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D7902381F8C646E2591AAD69 /* HydroTrack.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = HydroTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBEFB2574F89A42775294094 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEF6B1950785799C25A18AF5 /* QuickLogButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLogButton.swift; sourceTree = "<group>"; };
+		FAF9F1D31A356016B4B372F4 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		19D64CD3859A8948F6741194 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				AD0C4CBE3BE9BA1A7C6799C1 /* HealthKitManager.swift */,
+				0ED478B1FB9F228CEB8D1A3A /* NotificationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		1FD2E65AF357E0E333531CE0 = {
+			isa = PBXGroup;
+			children = (
+				7FD9E3FB95F1D293F77A7969 /* HydroTrack */,
+				A218550BC9215647EF347C24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		202A29FFAECF8FCE7D78D363 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D26BC0FEE081C4383071401E /* Constants.swift */,
+				49A1D5C6125419F617FDEBD0 /* HapticManager.swift */,
+				FAF9F1D31A356016B4B372F4 /* Theme.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		512203EF23F965A500C971BB /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				3174F6B8C610DECFD2F42D37 /* HomeView.swift */,
+				27AD4AE325C1DD25778A170C /* RemindersView.swift */,
+				7A5AD8FD0A04E73FE77C2A1F /* SettingsView.swift */,
+				8122CDCB18F264D951F6DFAE /* StatsView.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		7FD9E3FB95F1D293F77A7969 /* HydroTrack */ = {
+			isa = PBXGroup;
+			children = (
+				DBEFB2574F89A42775294094 /* Assets.xcassets */,
+				1E313A01313525A3E51B4215 /* ContentView.swift */,
+				4035ECF73611FC67B7A70A12 /* HydroTrackApp.swift */,
+				7CC47E09AD213A53A3CB79DE /* Info.plist */,
+				19D64CD3859A8948F6741194 /* Managers */,
+				ABEC947A0A76EE2502E50A2C /* Models */,
+				202A29FFAECF8FCE7D78D363 /* Utils */,
+				8F9C5781B7001F50810A4314 /* ViewModels */,
+				EC9E990134ED4794AE0B4167 /* Views */,
+			);
+			path = HydroTrack;
+			sourceTree = "<group>";
+		};
+		8F9C5781B7001F50810A4314 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				48A518185D45F095E6E0A676 /* SettingsViewModel.swift */,
+				4D184DA7BDF2DBB7E7CB64E3 /* WaterViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A218550BC9215647EF347C24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7902381F8C646E2591AAD69 /* HydroTrack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABEC947A0A76EE2502E50A2C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3AB35FA37363AFF8DF98DF6A /* UserProfile.swift */,
+				0EE02075CB797A301486D311 /* WaterEntry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D27979EC94345E265E284A39 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				75FA01E693E015F48A6C87A0 /* CelebrationView.swift */,
+				0ED1112FB78D5E39B02E46AE /* CustomAmountSheet.swift */,
+				9CB4716ED0EB32439C269AE9 /* EmptyStateView.swift */,
+				4EA7C0D34314F29E3EE2834A /* FunFactView.swift */,
+				6F25A027E3DFFC67BA139C27 /* HistoryEntryRow.swift */,
+				DEF6B1950785799C25A18AF5 /* QuickLogButton.swift */,
+				C85F14D73E4927F5C7800577 /* WaterVesselView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EC9E990134ED4794AE0B4167 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				595BB0513FAE652B2402B54F /* OnboardingView.swift */,
+				D27979EC94345E265E284A39 /* Components */,
+				512203EF23F965A500C971BB /* Tabs */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C62BC32D9450BB9742B9047 /* HydroTrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB8B67B3B413D4A2E440BB2E /* Build configuration list for PBXNativeTarget "HydroTrack" */;
+			buildPhases = (
+				E1277E4AE7FB18665CB62C99 /* Sources */,
+				315E4CE1B76F535E0235B358 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HydroTrack;
+			packageProductDependencies = (
+			);
+			productName = HydroTrack;
+			productReference = D7902381F8C646E2591AAD69 /* HydroTrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBC0CCA29A9FCC91A09AC0FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6C62BC32D9450BB9742B9047 = {
+						DevelopmentTeam = 4PPGZNVG8G;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 33C3107E82FC620372D6ECE2 /* Build configuration list for PBXProject "HydroTrack" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1FD2E65AF357E0E333531CE0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C62BC32D9450BB9742B9047 /* HydroTrack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		315E4CE1B76F535E0235B358 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B1DE8F2484056267C19BF6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1277E4AE7FB18665CB62C99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A63C9F94FF66ECEE0073925 /* CelebrationView.swift in Sources */,
+				BD29857C05EA222EC0AD3586 /* Constants.swift in Sources */,
+				C1306EEA5478EC8228E2707A /* ContentView.swift in Sources */,
+				47CCB5BE2C89B7A01357DADA /* CustomAmountSheet.swift in Sources */,
+				F13D0776F690FC0AC55DC869 /* EmptyStateView.swift in Sources */,
+				6B893A5C25344FD3AA4E083A /* FunFactView.swift in Sources */,
+				7426C8D6E7BC6862EAF7F958 /* HapticManager.swift in Sources */,
+				E92517F1B46EC7C6EBD8D764 /* HealthKitManager.swift in Sources */,
+				0D835D376B2F621CF807BC88 /* HistoryEntryRow.swift in Sources */,
+				65909B83E286BD18D373C199 /* HomeView.swift in Sources */,
+				DC08B6DFBB740507F8CF50AF /* HydroTrackApp.swift in Sources */,
+				FD582B59DAA868FC0DBF238B /* NotificationManager.swift in Sources */,
+				EA92AFFA59356FC219715714 /* OnboardingView.swift in Sources */,
+				1DFB2E328CF3EC4B3C3A905B /* QuickLogButton.swift in Sources */,
+				542A235CA2CF1E14D420348A /* RemindersView.swift in Sources */,
+				60A881748066A4F791D36210 /* SettingsView.swift in Sources */,
+				EED28DE1C4B28BFDB09FA98A /* SettingsViewModel.swift in Sources */,
+				3DC2521E6AA3D07B99D18CE8 /* StatsView.swift in Sources */,
+				F4B0C80EFADD20E3BCA7C721 /* Theme.swift in Sources */,
+				C7BE67E2A467EE76F9B8D6C6 /* UserProfile.swift in Sources */,
+				9A3291E1748BF9EA7E5714C7 /* WaterEntry.swift in Sources */,
+				DA267148D234D22944AA430A /* WaterVesselView.swift in Sources */,
+				4A0E41BA73F169AAC530F90C /* WaterViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		83FB077BE7FAFE9B8705A016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4PPGZNVG8G;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellyclaudeai.hydrotrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AC32B2CF6275EA31683C5DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = HydroTrack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = HydroTrack;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D488C8BDDE902265ACD72C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = HydroTrack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = HydroTrack;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4BDAB409D9EACDA89BBAF45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4PPGZNVG8G;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellyclaudeai.hydrotrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33C3107E82FC620372D6ECE2 /* Build configuration list for PBXProject "HydroTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4BDAB409D9EACDA89BBAF45 /* Debug */,
+				83FB077BE7FAFE9B8705A016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BB8B67B3B413D4A2E440BB2E /* Build configuration list for PBXNativeTarget "HydroTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D488C8BDDE902265ACD72C32 /* Debug */,
+				AC32B2CF6275EA31683C5DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBC0CCA29A9FCC91A09AC0FF /* Project object */;
+}

@@ -1,0 +1,2 @@
+# Placeholder - App icon should be generated separately
+# For now, create a simple colored square as a placeholder
